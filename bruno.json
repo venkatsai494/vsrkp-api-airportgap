@@ -1,0 +1,9 @@
+{
+  "version": "1",
+  "name": "vsrkp-api-airportgap",
+  "type": "collection",
+  "ignore": [
+    "node_modules",
+    ".git"
+  ]
+}
