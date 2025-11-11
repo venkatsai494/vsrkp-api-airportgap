@@ -5,11 +5,12 @@ meta {
 }
 
 get {
-  url: https://airportgap.com/api
+  url: {{BASE_URL}}/airports
   body: none
   auth: inherit
 }
 
 settings {
   encodeUrl: true
+  timeout: 0
 }
