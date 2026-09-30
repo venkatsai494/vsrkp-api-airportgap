@@ -11,10 +11,11 @@ post {
 }
 
 body:form-urlencoded {
-  from: KIX
-  to: NRT
+  from: {{sourceAirport}}
+  to: {{destinationAirport}}
 }
 
 settings {
   encodeUrl: false
+  timeout: 0
 }
